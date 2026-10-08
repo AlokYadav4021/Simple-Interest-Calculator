@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .center {
+  height: 50vh;
+  width: 60vw;
+  background-color: white;
+}
+.main .center table {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table td tr {
+  width: 100%;
+  background-color: red;
+}
+
+.center table td {
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+
+.center table td input{
+    height: 30px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.center table td button{
+    height: 30px;
+    width: 40%;
+    font-size: 20px;
+}
